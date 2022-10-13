@@ -103,6 +103,12 @@ or in a shorter display:
 git log --oneline
 ```
 
+## Suppress a file from the repository keeping the local file untouched
+
+```git
+git rm --cached .env
+```
+
 
 
 ## Link of interest
