@@ -106,9 +106,16 @@ git log --oneline
 ## Suppress a file from the repository keeping the local file untouched
 
 ```git
-git rm --cached .env
+git rm --cached ./ -rf
 ```
 
+or
+
+```git
+git restore --staged <file>
+```
+
+to unstage
 
 
 ## Link of interest
