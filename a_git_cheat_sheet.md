@@ -109,6 +109,11 @@ git log --oneline
 git rm --cached .env
 ```
 
+## After checkout to old version, creating a new branch
+
+```git
+git switch -c logging
+```
 
 
 ## Link of interest
