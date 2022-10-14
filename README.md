@@ -121,10 +121,19 @@ git switch -c logging
 git rm a_git_cheat_sheet.md -f
 ```
 
+## Merging
+
+### Fast-forward merge
+
+When you re-target a branch to another without applying any changes to any branches.
+
+### “real” merge
+
 
 
 
 ## Link of interest
 
 [lostechies.com :  Use gitk to understand git](https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
+
 [W3schools.com :  Git Revert](https://www.w3schools.com/git/git_revert.asp?remote=github)
