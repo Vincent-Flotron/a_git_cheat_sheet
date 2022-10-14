@@ -115,6 +115,14 @@ git rm --cached .env
 git switch -c logging
 ```
 
+## Remove file
+
+```git
+git rm a_git_cheat_sheet.md -f
+```
+
+
+
 
 ## Link of interest
 
