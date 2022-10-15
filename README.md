@@ -131,6 +131,29 @@ When you re-target a branch to another without applying any changes to any branc
 
 
 
+## Create a new repository on the command line
+
+```git
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/c0ldlimit/vimcolors.git
+git push -u origin master
+```
+
+or
+
+```git
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/c0ldlimit/vimcolors.git
+git push -u origin master
+```
+
+[tip from](https://gist.github.com/c0ldlimit/4089101)
 
 ## Link of interest
 
