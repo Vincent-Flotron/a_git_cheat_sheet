@@ -1,6 +1,21 @@
 # A git cheat sheet
 This document is still in a draft state which can include some errors.
 
+## Setting up connection to Github on a debian based OS
+### Download the latest [.deb package*](https://github.com/git-ecosystem/git-credential-manager/releases/latest), and run the following:
+More info [here](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md).
+```bash
+sudo dpkg -i <path-to-package>
+git-credential-manager configure
+```
+
+Set the Git Credential Manager
+```bash
+git config --global credential.credentialStore cache
+```
+
+Then, next time you execute a git command that need credential for your Github account, You will be asked for validate it using Github web site.
+
 
 ## Downloading a project
 
