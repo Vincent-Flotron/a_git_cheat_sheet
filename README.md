@@ -167,12 +167,13 @@ git commit -m "first commit"
 git remote add origin https://github.com/c0ldlimit/vimcolors.git
 git push -u origin master
 ```
+[tip from](https://gist.github.com/c0ldlimit/4089101)
 
 ## clean working space/rollback to latest commit
 ```git
 git checkout .
 ```
-[tip from](https://gist.github.com/c0ldlimit/4089101)
+[more](https://stackoverflow.com/questions/1146973/how-do-i-revert-all-local-changes-in-git-managed-project-to-previous-state)
 
 ## Link of interest
 
