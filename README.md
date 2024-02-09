@@ -168,6 +168,10 @@ git remote add origin https://github.com/c0ldlimit/vimcolors.git
 git push -u origin master
 ```
 
+## clean working space/rollback to latest commit
+```git
+git checkout .
+```
 [tip from](https://gist.github.com/c0ldlimit/4089101)
 
 ## Link of interest
